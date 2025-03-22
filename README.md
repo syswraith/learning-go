@@ -1,9 +1,9 @@
 # Topic progress
 
 - [x] Go Comments
-- [ ] Go Variables
-- [ ] Go Constants
-- [ ] Go Output
+- [x] Go Variables
+- [x] Go Constants
+- [x] Go Output
 - [ ] Go Data Types
 - [ ] Go Arrays
 - [ ] Go Slices
