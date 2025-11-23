@@ -1,6 +1,7 @@
 /*
-Print => prints with default formatting
+Printf => prints with default formatting
 Println => adds space between args and newline at the end
+Print => prints each args as is
 */
 
 package main
@@ -11,6 +12,6 @@ func main() {
     fmt.Print(i, "\n")
     fmt.Print(j, " ")
     fmt.Println(i,j)
-    fmt.Printf("%v\n",i)
-    fmt.Printf("%T",j)
+    fmt.Printf("%v %v\n", i, 1000) // prints the default value
+    fmt.Printf("%T",j) // prints the type
 }

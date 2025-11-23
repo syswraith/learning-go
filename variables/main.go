@@ -4,8 +4,10 @@ you can only use the walrus operator WITHIN a function
 */
 
 package main
+
 import ("fmt")
 
+// variable name type
 var integer int = 32
 var decimal float32 = 32.12
 var str string = "Hello world"
